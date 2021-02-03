@@ -1,28 +1,66 @@
 {
   "bg": "https://ogimg.infoglobo.com.br/in/23821164-eb9-b50/FT1086A/652/img5d064d73a15705.77679655.png",
   "title": "Titulo do quiz",
-  "description": "descricao do quiz aqui",
+  "description": "Teste seus conhecimentos sobre essa Super Heroína",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "questao n 1",
-      "description": "descricao da questao",
-      "answer": 1,
+      "image": "https://i.pinimg.com/736x/ec/c5/50/ecc550e795966354291466ac99003307.jpg",
+      "title": "Questão 1",
+      "description": "Qual é o verdadeiro nome da LadyBug?",
+      "answer": 2,
       "alternatives": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Ália",
+        "Cloe",
+        "Marinete",
+        "Sabrina"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "questao 2",
-      "description": "descricao questao",
+      "image": "https://static.wikia.nocookie.net/zagtoon/images/8/85/Tikki_Render.png",
+      "title": "Questão 2",
+      "description": "Qual é o nome do kwami da LadyBug?",
+      "answer": 1,
+      "alternatives": [
+        "Plagg",
+        "Tikki",
+        "Noroo",
+        "Pollen"
+      ]
+    },
+    {
+      "image": "https://imagensemoldes.com.br/wp-content/uploads/2019/10/Miraculous-As-Aventuras-de-Ladybug-Cat-Noir-PNG-09.jpg",
+      "title": "Questão 3",
+      "description": "Qual é o acessório que o Gato Noir usa para se transformar?",
+      "answer": 0,
+      "alternatives": [
+        "Anel",
+        "Colar",
+        "Brincos",
+        "Pulseira"
+      ]
+    },
+    {
+      "image": "https://pm1.narvii.com/6555/d09fa373cd88ab11ece7031d86126e5279138f75_hq.jpg",
+      "title": "Questão 4",
+      "description": "Em qual cidade mora a LadyBug?",
       "answer": 2,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Nova Iorque",
+        "Dublin",
+        "Paris",
+        "Vancouver"
+      ]
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/z/insetos-de-anima%C3%A7%C3%A3o-gafanhoto-e-ladybug-lagarta-borboleta-mosquito-aranha-mosca-formiga-mantis-conjuntos-quadrinhos-vetoriais-169068895.jpg",
+      "title": "Questão 5",
+      "description": "Qual é o inseto que transforma as pessoas em vilões?",
+      "answer": 3,
+      "alternatives": [
+        "Traça",
+        "Abelha",
+        "Joaninha",
+        "Borboleta"
       ]
     }
   ],
@@ -32,12 +70,12 @@
   "theme": {
     "colors": {
       "primary": "#3f51b5",
-      "secondary": "#ffc400",
+      "secondary": "#b22a00",
       "mainBg": "#171B35",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
     },
-    "borderRadius": "4px"
+    "borderRadius": "10px"
   }
 }
