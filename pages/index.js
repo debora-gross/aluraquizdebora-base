@@ -39,12 +39,12 @@ export const Button = styled.button`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
-  console.log('retorno do useState', name, setName);
+  // console.log('retorno do useState', name, setName);
 
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz- Modelo Base</title>
+        <title>Lady Bug - AluraQuiz</title>
         <meta property="og:image" content={db.bg} />
       </Head>
       <QuizContainer>
@@ -61,7 +61,7 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
+              // console.log('Fazendo uma submissão por meio do react');
 
               // router manda para a proxima pagina
             }}
