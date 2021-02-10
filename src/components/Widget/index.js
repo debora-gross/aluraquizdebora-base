@@ -36,21 +36,22 @@ Widget.Header = styled.header`
 
 Widget.Img = styled.div`
   img {
-  display: flex;
-  justify-content: flex-start;
-  border-radius: 20px;
-  width: 300px;
-  height: 150px;
-  padding: 5px 10px;
-  margin: 0px;
-  animation: rotation 8s infinite linear;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    padding: 5px 10px;
+    margin: 0px;
+    animation: rotation 8s infinite linear;
 
-  @keyframes rotation {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(359deg);
+    @keyframes rotation {
+      from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(359deg);
+      }
     }
   }
 `;
@@ -60,7 +61,6 @@ Widget.Descrip = styled.div`
   text-align: center;
   padding: 5px 0px;
 `;
-
 
 Widget.Content = styled.div`
   padding: 10px 25px 25px 25px;;
