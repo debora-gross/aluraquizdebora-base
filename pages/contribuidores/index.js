@@ -28,7 +28,7 @@ function Image({ src, indice }) {
   const thumbnail = `
 https://api.screenshotmachine.com?key=${key}&url=${src}&dimension=1024x768&cacheLimit=2
   `;
-  
+
   return (
     <a href={src} style={{ display: 'inline-block', fontSize: '0' }}>
       <img
@@ -58,7 +58,7 @@ export default function ContributorsPage({ contributors }) {
           </Widget.Content>
         </Widget>
 
-<div
+        <div
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
@@ -102,7 +102,7 @@ export async function getStaticProps() {
       projectUrl,
     };
   });
-  
+
   return {
     props: {
       contributors,
