@@ -43,11 +43,27 @@ Widget.Img = styled.div`
   height: 150px;
   padding: 5px 10px;
   margin: 0px;
+  animation: rotation 8s infinite linear;
+
+  @keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
   }
 `;
 
+Widget.Descrip = styled.div`
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 0px;
+`;
+
+
 Widget.Content = styled.div`
-  padding: 24px 32px 32px 32px;
+  padding: 10px 25px 25px 25px;;
   & > *:first-child {
     margin-top: 0;
   }

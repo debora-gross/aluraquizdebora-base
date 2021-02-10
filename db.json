@@ -1,7 +1,7 @@
 {
   "bg": "https://ogimg.infoglobo.com.br/in/23821164-eb9-b50/FT1086A/652/img5d064d73a15705.77679655.png",
   "title": "Titulo do quiz",
-  "description": "Teste seus conhecimentos sobre essa Super Heroína",
+  "description": "Teste seus conhecimentos sobre essa Super Heroína!",
   "questions": [
     {
       "image": "https://i.pinimg.com/736x/ec/c5/50/ecc550e795966354291466ac99003307.jpg",
@@ -65,7 +65,8 @@
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
